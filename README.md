@@ -14,9 +14,11 @@ The goal is to explore and visualize urban patterns, socioeconomic trends, popul
 ## 📊 Current Projects
 
 - **London Housing Prices**
-  - [Exploratory data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/tree/master)
+  - [Exploratory data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
   	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1_City-of-London-Housing-Price-EDA.pdf)
-  - [ML based data analysis by boroughs (City-of-London)](-)
+  - [ML based data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1.1_%20City-of-London_ML-based-analysis.ipynb)
+  	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1.1_%20City-of-London_ML-based-analysis.pdf)
+
 - **Coming Soon...**
   - Population density and green space accessibility
   - Transport network and accessibility analysis

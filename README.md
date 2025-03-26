@@ -15,7 +15,7 @@ The goal is to explore and visualize urban patterns, socioeconomic trends, popul
 
 - **London Housing Prices**
   - [Exploratory data analysis by boroughs](https://github.com/yalgettekin/london-urban-insights/tree/master)
-  - [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/LONDON_HOUSING.pdf)
+  - [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1_City-of-London-Housing-Price-EDA.pdf)
 - **Coming Soon...**
   - Population density and green space accessibility
   - Transport network and accessibility analysis

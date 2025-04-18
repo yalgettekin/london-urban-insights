@@ -14,12 +14,12 @@ The goal is to explore and visualize urban patterns, socioeconomic trends, popul
 ## 📊 Current Projects
 
 - **1_London_Housing_Prices**
-  - [Exploratory data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
+  - [1_City-of-London-Housing-Price-EDA](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
   	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1_City-of-London-Housing-Price-EDA.pdf)
-  - [1.1_City-of-London-ML-based-analysis](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1.1_%20City-of-London_ML-based-analysis.ipynb)
+  - [1.1_ City-of-London_ML-based-analysis](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1.1_%20City-of-London_ML-based-analysis.ipynb)
   	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/1_%20City-of-London_ML-based-analysis/outputs/1.1_%20City-of-London_ML-based-analysis.pdf)
 - **2_Clustering of Greater London Wards**
-  - [K-Means-Classification-of-London-Wards](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
+  - [2_K-Means-Classification-of-London-Wards](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
   	- [View Project](https://github.com/yalgettekin/london-urban-insights/blob/main/2_K-Means-Classification-of-London-Wards/notebooks/2_K-Means-Classification-of-London-Wards.ipynb)
 - **Coming Soon...**
   - Population density and green space accessibility

@@ -1,48 +1,44 @@
-# London Urban Insights
 
-This repository contains various data analysis projects focusing on **urban** and **demographic** data in London.
+# 🏙️ London Housing Prices – Exploratory Analysis & Predictive Modeling
 
-The goal is to explore and visualize urban patterns, socioeconomic trends, population dynamics, and more using Python and data science tools. Each dataset is accompanied by detailed notebooks and analytical reports.
-
-## 📁 Project Structure
-
-- `data/` – Raw datasets (CSV, shapefiles, etc.)
-- `notebooks/` – Jupyter Notebooks with step-by-step analysis
-- `outputs/` – Visualizations, charts, and exportable results
-- `src/` – Custom Python scripts (e.g., for data cleaning, preprocessing)
-
-## 📊 Current Projects
-
-- **London Housing Prices**
-  - [Exploratory data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
-  	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1_City-of-London-Housing-Price-EDA.pdf)
-  - [ML based data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1.1_%20City-of-London_ML-based-analysis.ipynb)
-  	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1.1_%20City-of-London_ML-based-analysis.pdf)
-
-- **Coming Soon...**
-  - Population density and green space accessibility
-  - Transport network and accessibility analysis
-## 📄 Project Reports
-[View PDF Reports](https://github.com/yalgettekin/london-urban-insights/tree/main/outputs)
-
-## 🛠️ Tools & Libraries
-
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- Jupyter Notebook
-- GeoPandas (for future spatial analysis)
-- Git & GitHub
-
-## 🙋‍♂️ Author
-
-👤 **Naile Yalgettekin**  
-📌 Urban Planning & Data Science  
-🌐 [yalgettekin.github.io](https://github.com/yalgettekin)  
-💼 [LinkedIn](https://www.linkedin.com/in/naile-yalgettekin-2b8a43100/)
+## 📌 Project Overview
+This repository contains a two-stage data science project focused on understanding and modeling housing prices in London. The analysis begins with an in-depth exploration of the data and continues with a machine learning-based prediction model.
 
 ---
 
-Feel free to explore, fork, or contribute to the projects!Contains National Statistics data © Crown copyright and database right 2014
-Contains Ordnance Survey data © Crown copyright and database right 2014
+## 📊 Project 1: City of London Housing Price EDA
 
+- **Goal:** Explore and understand the distribution and dynamics of housing prices in London.
+- **Description:**  
+  This report presents an Exploratory Data Analysis (EDA) of the London housing dataset. The analysis aims to uncover insights into housing prices, the impact of various features, and highlight key trends across different time periods and property types.  
+  Each step includes **visualizations, explanations, and insights** that make complex data easier to interpret and use for decision-making.
 
-Data are copyright © Census Information Scheme. Adapted from data from the Office for National Statistics licenced under the Open Government Licence v.1.0.
+---
+
+## 🤖 Project 2: City of London Housing Price Prediction (ML-Based)
+
+- **Goal:** Build a predictive model based on insights gained during the EDA phase.
+- **Description:**  
+  This notebook demonstrates a complete workflow for predicting housing prices in London using **Random Forest Regression**. The project continues from the exploratory analysis by:
+  - Cleaning and preprocessing the data
+  - Detecting and removing outliers
+  - Selecting relevant features
+  - Training a machine learning model
+  - Evaluating performance
+  - Visualizing the predictions
+- **Outcome:** The model provides accurate predictions and reveals key variables influencing housing prices across the city.
+
+---
+
+## 🗂️ Repository Contents
+
+- [`1_City-of-London-Housing-Price-EDA`](https://github.com/yalgettekin/london-urban-insights/blob/main/1_London_Housing_Prices/notebooks/1_City-of-London-Housing-Price-EDA.ipynb) – Housing price exploratory analysis
+- [`1.1_City-of-London_ML-based-analysis`](https://github.com/yalgettekin/london-urban-insights/blob/main/1_London_Housing_Prices/notebooks/1.1_%20City-of-London_ML-based-analysis.ipynb) – Housing price prediction notebook (Random Forest Regression)
+
+---
+
+## 👤 Author
+
+**Naile Yalgettekin**  
+Urban Planner | Spatial Data Scientist  
+[GitHub Profile](https://github.com/yalgettekin)

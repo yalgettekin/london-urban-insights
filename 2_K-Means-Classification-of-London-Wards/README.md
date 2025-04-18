@@ -1,48 +1,28 @@
-# London Urban Insights
 
-This repository contains various data analysis projects focusing on **urban** and **demographic** data in London.
+# 🗂️ K-Means Classification of London Wards
 
-The goal is to explore and visualize urban patterns, socioeconomic trends, population dynamics, and more using Python and data science tools. Each dataset is accompanied by detailed notebooks and analytical reports.
+## 📌 Objective
+This project aims to group London wards based on their land use percentages using the **K-Means clustering algorithm**. The resulting clusters represent different urban typologies.
 
-## 📁 Project Structure
+## 🔧 Methods Used
+- **EDA** (Exploratory Data Analysis)
+- **Feature Scaling** using StandardScaler
+- **K-Means Clustering** (with Elbow Method + Evaluation Metrics)
+- **Spatial Data Integration**: Merging ward-level CSV data with shapefiles containing London boundary data
+- **Map Generation** using GeoPandas and Matplotlib to visualize the spatial distribution of clusters
+- **Visualization and Export of Results**
 
-- `data/` – Raw datasets (CSV, shapefiles, etc.)
-- `notebooks/` – Jupyter Notebooks with step-by-step analysis
-- `outputs/` – Visualizations, charts, and exportable results
-- `src/` – Custom Python scripts (e.g., for data cleaning, preprocessing)
+## 📊 Dataset
+Each ward is described by the percentage of the following land use types:
+- Domestic / Non-Domestic Buildings  
+- Roads, Railways, Paths  
+- Greenspace, Water Bodies, Other Land Uses
 
-## 📊 Current Projects
+## 📎 Outputs
+- `2_London_wards_with_labels`: Cluster labels assigned to each ward  
+- `2_K-Means-Classification-of-London-Wards.ipynb`: Complete analysis workflow
 
-- **London Housing Prices**
-  - [Exploratory data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1_City-of-London-Housing-Price-EDA.ipynb)
-  	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1_City-of-London-Housing-Price-EDA.pdf)
-  - [ML based data analysis by boroughs (City-of-London)](https://github.com/yalgettekin/london-urban-insights/blob/main/notebooks/1.1_%20City-of-London_ML-based-analysis.ipynb)
-  	- [View PDF Report](https://github.com/yalgettekin/london-urban-insights/blob/main/outputs/1.1_%20City-of-London_ML-based-analysis.pdf)
+## 👤 Author
+**Naile Yalgettekin**  
+[GitHub](https://github.com/yalgettekin)
 
-- **Coming Soon...**
-  - Population density and green space accessibility
-  - Transport network and accessibility analysis
-## 📄 Project Reports
-[View PDF Reports](https://github.com/yalgettekin/london-urban-insights/tree/main/outputs)
-
-## 🛠️ Tools & Libraries
-
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- Jupyter Notebook
-- GeoPandas (for future spatial analysis)
-- Git & GitHub
-
-## 🙋‍♂️ Author
-
-👤 **Naile Yalgettekin**  
-📌 Urban Planning & Data Science  
-🌐 [yalgettekin.github.io](https://github.com/yalgettekin)  
-💼 [LinkedIn](https://www.linkedin.com/in/naile-yalgettekin-2b8a43100/)
-
----
-
-Feel free to explore, fork, or contribute to the projects!Contains National Statistics data © Crown copyright and database right 2014
-Contains Ordnance Survey data © Crown copyright and database right 2014
-
-
-Data are copyright © Census Information Scheme. Adapted from data from the Office for National Statistics licenced under the Open Government Licence v.1.0.

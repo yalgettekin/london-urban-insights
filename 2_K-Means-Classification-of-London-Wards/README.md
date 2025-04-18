@@ -20,7 +20,7 @@ Each ward is described by the percentage of the following land use types:
 
 ## 📎 Outputs
 - `2_London_wards_with_labels`: Cluster labels assigned to each ward  
-- `2_K-Means-Classification-of-London-Wards.ipynb`: Complete analysis workflow
+- [`2_K-Means-Classification-of-London-Wards.ipynb`](https://github.com/yalgettekin/london-urban-insights/blob/main/2_K-Means-Classification-of-London-Wards/notebooks/2_K-Means-Classification-of-London-Wards.ipynb): Complete analysis workflow
 
 ## 👤 Author
 **Naile Yalgettekin**  
